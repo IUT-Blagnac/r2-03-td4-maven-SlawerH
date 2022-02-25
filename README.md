@@ -1,6 +1,6 @@
 # Programme Dev. Objets S2 - Schtroumpfs
 
-## Inroduction
+## Introduction
 
 Veillez à avoir bien configuré Maven et Java
 
@@ -28,7 +28,7 @@ mvn compile
 
 ## Package
 
-Transformation en `.jar.`
+Transformation en `.jar`.
 
 ```
 mvn package
