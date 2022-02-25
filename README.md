@@ -41,3 +41,12 @@ Pour exécuter le fichier `jar` créé
 ```
 java -jar target/tp_qualite-1.0.jar
 ```
+
+## Javadoc
+
+Réaliser la commande suivante pour générer la javadoc (dans `target/site/apidocs/`)
+
+[Plus d'informations](https://stackoverflow.com/questions/9971219/generate-javadoc-html-using-maven)
+```
+mvn javadoc:javadoc
+```
