@@ -1,1 +1,43 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7150248&assignment_repo_type=AssignmentRepo)
+# Programme Dev. Objets S2 - Schtroumpfs
+
+## Inroduction
+
+Veillez à avoir bien configuré Maven et Java
+
+## Cloner
+
+```
+git clone https://github.com/IUT-Blagnac/r2-03-td4-maven-SlawerH.git
+```
+(Ou un autre repository, ou même Gitpod)
+
+## Clean
+
+Si besoin de repartir de zéro (suppression du dossier target)
+```
+mvn clean
+```
+
+## Compiler
+
+Compilation des fichiers `*.java` dans `src/main/java` dans `target/classes/` (et plus)
+
+```
+mvn compile
+```
+
+## Package
+
+Transformation en `.jar.`
+
+```
+mvn package
+```
+
+## Exécution
+
+Pour exécuter le fichier `jar` créé
+
+```
+java -jar target/tp_qualite-1.0.jar
+```
